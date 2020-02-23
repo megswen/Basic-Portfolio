@@ -1,0 +1,15 @@
+h1 {
+    color: blue;
+    background-color: green;
+    width: 235px;
+    height: 35px;
+    padding: 15px;
+    margin: 40px;
+    float: left;
+}
+
+h2 {
+    margin: 40px;
+    float: right;
+    font-size: 20px;
+}
