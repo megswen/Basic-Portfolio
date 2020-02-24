@@ -5,12 +5,13 @@
   }
 
 header {
-    background-color: lime;
+    background-color: #ffffff;
     display: inline;
     float: left;
     margin: 0px;
     width: 100%;
-    height: 80px;
+    height: 49px;
+    border-bottom: 1px solid #cccccc;
 }
 
 .subheader {
@@ -22,7 +23,7 @@ header {
 .fullname {
     color: white;
     background-color: #4AAAA5;
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
     text-align: center;
     font-size: 25px;
     font-family: ‘Georgia’, Times, Times New Roman, serif;
@@ -36,6 +37,7 @@ nav {
     display: inline;
     font-size: 15px;
     position: relative;
+    margin: 0px 150px 0px 0px;
 }
 
 .pageheading {
@@ -44,6 +46,7 @@ nav {
     color: #4aaaa5;
     width: 100%;
     font-size: 25px;
+    font-family: ‘Georgia’, Times, Times New Roman, serif;
 }
 
 img {
@@ -55,4 +58,10 @@ img {
 p {
     margin: 0px 150px 0px 0px;
     padding: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+footer {
+    color: #777777
 }
