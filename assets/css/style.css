@@ -24,11 +24,11 @@ header {
     color: white;
     background-color: #4AAAA5;
     padding: 20px;
-    text-align: center;
     font-size: 25px;
     font-family: ‘Georgia’, Times, Times New Roman, serif;
     display: inline;
-    margin: 0px 0px 0px 100px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
 }
 
 nav {
@@ -38,30 +38,82 @@ nav {
     font-size: 15px;
     position: relative;
     margin: 0px 150px 0px 0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    color: #777777;
+}
+
+.boxed {
+    background-color: white;
+    width: 960px;
+    margin: auto;
+    position: absolute;
+    top: 100px;
+    border: 1px solid #dddddd;
 }
 
 .pageheading {
-    margin: 40px 40px 40px 100px;
+    margin: 40px 40px 40px 20px;
     float: left;
     color: #4aaaa5;
-    width: 100%;
+    width: 900px;
     font-size: 25px;
     font-family: ‘Georgia’, Times, Times New Roman, serif;
+    background-color: white;
+    border-bottom: 1px solid #cccccc;
+    padding: 5px;
 }
 
-img {
+.profilephoto {
     float: left;
-    margin: 0px 0px 0px 90px;
+    margin: 0px 0px 0px 10px;
     padding: 10px;
 }
 
 p {
-    margin: 0px 150px 0px 0px;
-    padding: 10px;
+    margin: 0px 10px 0px 0px;
+    padding: 15px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    background-color: white;
+    font-size: 18px;
+}
+
+.backgroundphoto {
+    width: 100%;
 }
 
 footer {
-    color: #777777
+    color: white;
+    background-color: #666666;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;
 }
+
+input[type=text] {
+    width: 910px;
+    padding: 0px 0px;
+    margin: 0px 20px 0px 20px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+  #name {
+    font-size: 20px;
+  }
+
+  #email {
+    font-size: 20px;
+  }
+
+  #message {
+    font-size: 20px;
+  }
+
+  label {
+      margin: 0px 0px 0px 20px;
+  }
